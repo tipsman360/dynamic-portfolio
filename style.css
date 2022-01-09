@@ -565,7 +565,6 @@ footer span a:hover{
         width: 350px;
     }
 }
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
@@ -683,4 +682,11 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+.home .home-content .text-1{
+    color: #87bede;
+}
+.home .home-content .text-2{
+    color: burlywood;
 }
