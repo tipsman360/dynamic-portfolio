@@ -683,3 +683,10 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+.home .home-content .text-1{
+    color: #87bede;
+}
+.home .home-content .text-2{
+    color: burlywood;
+}
