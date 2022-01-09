@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner-me.png") no-repeat center;
+    background: url("images/banner-me.png") no-repeat center fixed;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -479,7 +479,7 @@ section .title::after{
 }
 .contact .contact-content .text:hover 
 {
-color: crimson;
+color: rgb(240, 9, 163);
 font-weight: 1000;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
