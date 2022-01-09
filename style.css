@@ -482,7 +482,6 @@ section .title::after{
 color: crimson;
 font-weight: 1000;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-background: green;
 }
 .contact .right form .fields{
     display: flex;
