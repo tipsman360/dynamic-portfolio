@@ -477,6 +477,13 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+.contact .contact-content .text:hover 
+{
+color: crimson;
+font-weight: 1000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: green;
+}
 .contact .right form .fields{
     display: flex;
 }
