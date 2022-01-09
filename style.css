@@ -479,7 +479,7 @@ section .title::after{
 }
 .contact .contact-content .text:hover 
 {
-color: crimson;
+color: rgb(240, 9, 163);
 font-weight: 1000;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
