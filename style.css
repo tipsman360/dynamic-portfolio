@@ -138,7 +138,7 @@ section .title::after{
 /* menu btn styling */
 .menu-btn{
     color: #fff;
-    font-size: 23px;
+    font-size: 16px;
     cursor: pointer;
     display: none;
 }
@@ -355,9 +355,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .text{
-    font-size: 100px;
+.callout{
+    border-left: 4px solid rgb(4, 0, 255);
+    border-right: 4px solid rgb(4, 0, 255);
+    background-color: rgb(250, 43, 16);
+    padding: 5px 2px 5px 2px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    font-size: large;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .skills .skills-content .left p{
     text-align: justify;
@@ -823,4 +831,3 @@ a.socials-item:hover {
         line-height: 38px;
     }
 }
-
