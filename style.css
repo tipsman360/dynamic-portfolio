@@ -706,6 +706,10 @@ a.socials-item:hover {
     color: white;
 }
 
+.card-header{
+    padding-top: 250px;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
