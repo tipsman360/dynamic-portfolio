@@ -40,7 +40,7 @@
 
 <style>
     .post-section{
-        margin-top: 100px;
+        margin-top: 20px;
     }
     .post-section h1{
         text-align: center;
@@ -51,11 +51,11 @@
         background-color: coral;
     }
     
-    .home{
+.home{
     display: flex;
     background: url("images/banner-me.png") no-repeat center fixed;
-    height: 10vh;
-    color: #fff;
+    height: 50vh;
+    color: rgb(117, 112, 112);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -66,8 +66,31 @@
     padding: 15px 0;
     background: rgb(248, 8, 8);
 }
+#post{
+    margin: 20px;
+    padding: 20px;
+   
+}
+.post-section{
+    background-color: cornflowerblue;
+}
+.post-box img{
+width: 50%;
+height: 100%;
+align-items: center;
+}
+
+#post .post-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 </style>
+
+
+
+
 
      <!-- home section start -->
      <section class="home" id="home">
@@ -82,17 +105,40 @@
         </div>
     </section>
 
-       
-<div class="post-section">
-    <h1>Bangladesh</h1>
-    <div class="post-box"><h2>Ami Bangladesh</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat ab voluptatibus itaque aut, aliquid consequatur libero minima, provident magnam consectetur. Nisi natus dolor vero error sit adipisci dicta corrupti deleniti? Doloremque et quisquam sunt laboriosam. Dolores dolor dicta at?</p>
-    </div>
 
-    <div class="post-box"><h2>Tumi Bangladesh</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat ab voluptatibus itaque aut, aliquid consequatur libero minima, provident magnam consectetur. Nisi natus dolor vero error sit adipisci dicta corrupti deleniti? Doloremque et quisquam sunt laboriosam. Dolores dolor dicta at?</p>
-    </div>
 
-</div>
-    
+
+   <section id="post"><div class="post-section">
+    <h1>Md. Mehedi Hasan</h1>
+    <div class="post-box"><img src="images/banner-me.png" alt=""></div>
+   </section>
+
+   <section id="post"><div class="post-section">
+    <h1>Md. Mehedi Hasan</h1>
+    <div class="post-box"><section class="introduction-section">
+        <h1>Introduction</h1>
+        <p>I am a construction business owner, part time marketer, and soon to be web developer.</p>
+        <p>I love the internet, technology, and building beautiful things.</p>
+    </section>
+    <section class="location-section">
+        <h1>Where I'm From</h1>
+        <p>I'm originally from Toronto, Ontario. </p>
+    </section>
+    <section class="questions-section">
+        <h1>More About Me</h1>
+        <h2>What are your favorite hobbies?</h2>
+        <p>My favorite hobby is building things on the internet like ecommerce sites and email marketing campaigns.</p>
+        <h2>What's your dream job?</h2>
+        <p>My dream job is similar to my current job except I would like to be building software instead of buildings.</p>
+        <h2>Where do you live?</h2>
+        <p>I live on a rural acreage, but I'm close to Ottawa and Montreal.</p>
+        <h2>Why do you want to be a web developer?</h2>
+        <p>Because programming is awesome and programming for the internet is even more awesome.</p>
+    </section></div>
+   </section>
+
+
+
 
       <!-- footer section start -->
       <footer>
