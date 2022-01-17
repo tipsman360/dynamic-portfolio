@@ -80,7 +80,34 @@ align-items: center;
     flex-direction: column;
     align-items: center;
 }
-
+.questions-section{
+  margin: 0px 40px 0px 40px;
+  border: 2px solid wheat;
+  padding:10px 40px 10px 40px ;
+  background-color: wheat;
+  margin-bottom: 50px;
+}
+    .questions-section h1{
+        text-align: center;
+        color: black;
+        background-color: chocolate;
+    }
+    .questions-section h2{
+        background-color: coral;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .questions-section p{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    @media (max-width: 767px){
+      .questions-section h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+      }
+    }
 </style>
 
 
@@ -108,30 +135,28 @@ align-items: center;
     <div class="post-box"><img src="images/banner-me.png" alt=""></div>
    </section>
 
-   <section id="post"><div class="post-section">
-    <div class="post-box">
-      
-        <h1>Introduction</h1>
+   <section class="questions-section">
+    <h1> About Me</h1>
+        <h2>Introduction</h2>
         <p>I am a construction business owner, part time marketer, and soon to be web developer.</p>
         <p>I love the internet, technology, and building beautiful things.</p>
     
   
-        <h1>Where I'm From</h1>
+        <h2>Where I'm From</h2>
         <p>I'm originally from Toronto, Ontario. </p>
-    
-    <section class="questions-section">
-        <h1>More About Me</h1>
-        <h2>What are your favorite hobbies?</h2>
-        <p>My favorite hobby is building things on the internet like ecommerce sites and email marketing campaigns.</p>
-        <h2>What's your dream job?</h2>
-        <p>My dream job is similar to my current job except I would like to be building software instead of buildings.</p>
-        <h2>Where do you live?</h2>
-        <p>I live on a rural acreage, but I'm close to Ottawa and Montreal.</p>
-        <h2>Why do you want to be a web developer?</h2>
-        <p>Because programming is awesome and programming for the internet is even more awesome.</p>
-    </section></div>
    </section>
 
+   <section class="questions-section">
+    <h1>More About Me</h1>
+    <h2>What are your favorite hobbies?</h2>
+    <p>My favorite hobby is building things on the internet like ecommerce sites and email marketing campaigns.</p>
+    <h2>What's your dream job?</h2>
+    <p>My dream job is similar to my current job except I would like to be building software instead of buildings.</p>
+    <h2>Where do you live?</h2>
+    <p>I live on a rural acreage, but I'm close to Ottawa and Montreal.</p>
+    <h2>Why do you want to be a web developer?</h2>
+    <p>Because programming is awesome and programming for the internet is even more awesome.</p>
+</section></div>
 
 
 
