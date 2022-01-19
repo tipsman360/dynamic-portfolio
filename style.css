@@ -336,6 +336,61 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px 0 7px 0;
 }
 
+
+
+/* course section styling */
+.course{
+    color:#fff;
+    background: rgb(155, 19, 19);
+}
+.course .max-width .title:hover 
+{
+color: rgb(240, 9, 163);
+font-weight: 1000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.course .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.course .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.course .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.course .serv-content .card:hover{
+    background: crimson;
+}
+.course .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.course .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.course .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.course .serv-content .card:hover i{
+    color: #fff;
+}
+.course .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
 /* skills section styling */
 
 .skills .title::after{
