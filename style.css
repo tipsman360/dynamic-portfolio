@@ -781,12 +781,6 @@ a.socials-item:hover {
     }
     
   }
-  .course{
-      background-color: aqua;
-      padding: 5px;
-      margin: 5px;
-      align-items: center;
-  }
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
