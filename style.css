@@ -787,17 +787,10 @@ a.socials-item:hover {
     }
 }
 
-@media (min-width: 947px) and (max-width: 2100px) {
-  
-    .navbar .max-width-nav {
-        padding: 0 5px;
-    }
-    
-  }
-  @media (min-width: 947px) and (max-width: 2100px) {
+  @media (min-width: 947px) and (max-width: 952px) {
   
     .max-width {
-        padding: 0 35px;
+        padding: 0 45px;
     }
     
   }
