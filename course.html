@@ -50,11 +50,7 @@
         background-color: cadetblue;
     }
 .services .card{
-<<<<<<< HEAD
     margin: 10px;
-=======
-    margin: 30px;
->>>>>>> 5a069033793ecdd49b435ef8f36d1334d3be02ad
 }
     @media (max-width: 767px){
       .questions-section h2{
@@ -208,7 +204,6 @@
           </div>
           <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.3898017677584!2d88.59219131426731!3d24.36773967083056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbef0769dba961%3A0xaddb9bfa3b7ace6b!2sNESCO%20Head%20Office%20Rajshahi!5e0!3m2!1sen!2sbd!4v1642307665026!5m2!1sen!2sbd" width="250" height="150" style="border:50px;"allowfullscreen="" loading="lazy"></iframe></div>
         </footer>
-<<<<<<< HEAD
 
         <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>  
@@ -257,10 +252,8 @@ Toast.fire({
   icon: 'error',
   title: 'Oops...',
   text: 'Something went wrong!',
-  footer: '<a href="">Why do I have this issue?</a>'
-})
-
-						
+  footer: '<a href="http://www.facebook.com/Me.OfficialMehedi">Stuck! Send Message Directly</a>'
+})					
 					}
 
 				}
@@ -269,45 +262,5 @@ Toast.fire({
     </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
-=======
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>  
-        
-             function sendmail(){
-            
-                    var name = $('#Name').val();
-                    var email = $('#Sender').val();
-                    var subject = $('#Subject').val();
-              var message = $('#Message').val();
-        
-                    // var body = $('#body').val();
-        
-                    var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-                    //console.log(name, phone, email, message);
-        
-                    Email.send({
-                SecureToken:"5984b4c1-3b52-4d82-981a-ae1080352e1b",
-                        To: 'nescoservice24@gmail.com',
-                        From: "hasanmehedi04286@gmail.com",
-                        Subject: "New message on contact from "+name,
-                        Body: Body
-                    }).then(
-                        message =>{
-                            //console.log (message);
-                            if(message=='OK'){
-                            alert('Your mail has been send. Thank you for connecting.');
-                            }
-                            else{
-                                console.error (message);
-                                alert('Click again to send. ')
-                                
-                            }
-        
-                        }
-                    );
-                }
-            </script>
-            <script src="script.js"></script>
->>>>>>> 5a069033793ecdd49b435ef8f36d1334d3be02ad
 </body>
 </html>
