@@ -309,9 +309,7 @@
         </footer>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
- 
 <script>  
-
      function sendmail(){
     
 			var name = $('#Name').val();
@@ -334,11 +332,32 @@
 				message =>{
 					//console.log (message);
 					if(message=='OK'){
-					alert('Your mail has been send. Thank you for connecting.');
+                        const Toast = Swal.mixin({
+  toast: true,
+  position: 'top-center',
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  didOpen: (toast) => {
+    toast.addEventListener('mouseenter', Swal.stopTimer)
+    toast.addEventListener('mouseleave', Swal.resumeTimer)
+  }
+})
+
+Toast.fire({
+  icon: 'success',
+  title: 'successfully send your message'
+})
 					}
 					else{
 						console.error (message);
-						alert('Click again to send. ')
+						Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+
 						
 					}
 
@@ -346,6 +365,7 @@
 			);
 		}
     </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
 </body>
 </html>
