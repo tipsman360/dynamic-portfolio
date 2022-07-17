@@ -34,6 +34,8 @@ $(document).ready(function(){
     });
 
     // typing text animation script
+
+
     var typed = new Typed(".typing", {
         strings: ["Electrical Engineer", "Web-Developer", "App-Developer", "Designer", "IT Expert"],
         typeSpeed: 100,
@@ -46,6 +48,13 @@ $(document).ready(function(){
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
+    });
+
+    
+    var typed = new Typed(".typing-3", {
+        strings: ["</>,</>"],
+        typeSpeed: 100,
+        backSpeed: 60,
     });
 
     // owl carousel script

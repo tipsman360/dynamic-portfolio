@@ -11,6 +11,23 @@
         scroll-behavior: smooth;
     }
 
+<<<<<<< HEAD
+    /* custom scroll bar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+=======
     .navbar .max-width .logo img{
         height: 26px;
         width: 35px;
@@ -35,12 +52,17 @@
         background: #555;
     }
 
+>>>>>>> 50941fcbcca1ca995aff8b31e2278699b2103382
     /* all similar content styling codes */
     section{
         padding: 100px 0;
     }
     .max-width{
+<<<<<<< HEAD
+        max-width: 100%;
+=======
         max-width: 1300px;
+>>>>>>> 50941fcbcca1ca995aff8b31e2278699b2103382
         padding: 0 80px;
         margin: auto;
     }
