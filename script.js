@@ -37,14 +37,14 @@ $(document).ready(function(){
 
 
     var typed = new Typed(".typing", {
-        strings: ["Electrical Engineer", "Web-Developer", "App-Developer", "Designer", "IT Expert"],
+        strings: [" an Electrical Engineer", " an Web-Developer", " an App-Developer", "a Designer", "an IT Expert"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Electrical Engineer", "Web-Developer", "App-Developer", "Designer", "IT Expert"],
+        strings: [" an Electrical Engineer", "an Web-Developer", "an App-Developer", "Designer", " a IT Expert"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
